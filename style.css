@@ -1,0 +1,136 @@
+body {
+  background-color: lightgray;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.filtro {
+  border: 1px solid lightgray;
+  background-color: white;
+  margin: 20px;
+  
+  padding: 40px;
+ 
+}
+
+.inter-<uniquifier> {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+.geral {
+  margin-top: -50px;
+  padding: -50px;
+}
+
+.marcador {
+  margin-left: -20px;
+  font-weight: ;
+  
+}
+
+p.categorias { font-family: "inter", sans-serif;
+  font-weight: bolder;
+ 
+
+}
+
+.linha {
+  border-bottom: 1px solid;
+  margin-bottom: 5px;
+  color: lightgray;
+  
+}
+
+.grade {
+  display: flex;
+  margin: -5px;
+  margin-top: 5px;
+  
+}
+
+.Cartão {
+  display: grid;
+}
+
+.balão {
+  display: inline-block;
+  padding: 5px;
+  border: none;
+  border-radius: 30px;
+  background-color: lightyellow;
+  margin-top: -20px;
+  margin-left: 3px;
+  margin-bottom: -10px;
+  /* position: absolute; */
+}
+
+.imagem {
+  background-color: white;
+  width: 195px;
+  height: 150px;
+  top: 332px;
+  left: 436px;
+  padding: 35px;
+  margin: 10px;
+  margin-top: 15px;
+}
+.tenis {
+  margin-left: -45px;
+  margin-top: -25px;
+  width: 248px;
+  /* height: 134px; */
+  top: 495px;
+  left: 426px;
+  justify-items: center;
+  justify-content: center;
+  
+}
+.textotenis {
+  color: #8f8f8f;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.75px;
+  margin: 0px;
+  margin-bottom: -3px;
+}
+
+.modelotenis {
+  color: #474747;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  margin: 0;
+  margin-bottom: -12px;
+}
+
+.preco {
+  display: flex;
+}
+.preco1 {
+  color: #8f8f8f;
+  width: 69px;
+  height: 38px;
+  top: 733px;
+  left: 436px;
+  border-width: 1px;
+}
+.preco2 {
+  width: 63px;
+  height: 38px;
+  top: 733px;
+  left: 513px;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 38px;
+  letter-spacing: 0.75px;
+  margin: 3px;
+  margin-left: -32px;
+}
