@@ -9,7 +9,8 @@ body {
   border: 1px solid lightgray;
   background-color: white;
   margin: 30px;
- height: 840px;
+ height: 720px;
+ width: 308px;
   
   padding: 40px;
  
@@ -18,9 +19,9 @@ body {
 
 .geral {
   margin-top: -50px;
-  margin-left: -30px;
+  margin-left: 30px;
   display: flex;
-  justify-content: space-between;
+  
   flex-direction: column;
   gap: 10px;
   
@@ -41,6 +42,7 @@ body {
 #filtro{
   width: 22px;
   height: 22px;
+  
 }
 
 
@@ -55,10 +57,15 @@ p.categorias { font-family: "inter", sans-serif;
 
 }
 
+.categorias{
+  margin-left: -30px;
+}
+
 .linha {
   border-bottom: 1px solid;
-  margin-bottom: 5px;
   color: lightgray;
+  width: 248px;
+  
   
 }
 
