@@ -10,9 +10,9 @@ body {
   background-color: white;
   margin: 30px;
  height: 720px;
- width: 308px;
+ width: 250px;
   
-  padding: 40px;
+  padding: 30px;
  
 }
 
@@ -21,11 +21,10 @@ body {
   margin-top: -50px;
   margin-left: 30px;
   display: flex;
-  
   flex-direction: column;
   gap: 10px;
   
-  padding: 50px;
+  padding: 20px;
   font-size: 14px;
   
 }
@@ -43,11 +42,19 @@ body {
   width: 22px;
   height: 22px;
   
+  
+}
+input[type="checkbox"] {
+  accent-color: #c92071; /* Define a cor da checkbox para pink */
+}
+input[type="radio"] {
+  accent-color: #c92071; /* Define a cor da checkbox para pink */
 }
 
-
-
-
+#um{
+  padding-top: 30px;
+  margin-bottom: -20px;
+}
 
 
 
@@ -65,8 +72,12 @@ p.categorias { font-family: "inter", sans-serif;
   border-bottom: 1px solid;
   color: lightgray;
   width: 248px;
-  
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: -38px;
+  margin-bottom: 0px;
+   
 }
 
 .grade {
