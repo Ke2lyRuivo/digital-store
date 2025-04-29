@@ -1,0 +1,52 @@
+body, html {
+    margin: 0px;
+    padding: 0;
+    
+}
+body{
+    width: 100vw;
+}
+footer {
+background: #1F1F1F;
+color: rgb(240, 237, 233);
+padding: 20px;
+border-radius: 8px;
+margin-top: 3290px;
+width: 100%;
+}
+
+.div1{
+    width: 370px;
+    height: 78px;
+    top: 151;
+    left: 100px;
+}
+
+.div2{
+    width: 135px;
+    height: 278px;
+    top: 72px;
+    left: 612px;
+}
+
+.div3{
+    width: 96px;
+    height: 240px;
+    top: 72px;
+    left: 849px;
+    
+}
+
+.div4{
+    width: 233px;
+    height: 168px;
+    top: 72px;
+    left: 1113px;
+}
+.div-principal{
+    display: flex;
+    justify-content: space-around;
+}
+.p-final{
+    text-align: center;
+}
