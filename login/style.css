@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo {
+    padding-left: 48px;
+    padding-top: 4px;
+    background-color: #fff;
+}
+
+main{
+    background-color: crimson;
+    padding: 48px;
+}
+.formulario{
+    background-color: #fff;
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
