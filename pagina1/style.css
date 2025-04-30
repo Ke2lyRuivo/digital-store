@@ -1,0 +1,95 @@
+.divheadertoda {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.imagemlogodigital {
+    margin-left: 50px;
+
+
+}
+
+.divpesquisar {
+    display: flex;
+}
+
+.campopesquisar {
+    width: 530px;
+    height: 64px;
+    border-radius: 8px 0 0 8px;
+    background-color: rgb(244, 244, 244);
+    padding-left: 33px;
+    margin-left: 10px;
+    border: none;
+}
+
+.divpesquisar {
+    
+    align-items: center;
+}
+
+.lupa {
+    padding: 0 10px 0 0;
+    justify-content: center;
+    background-color: rgb(244, 244, 244);
+    height: 64px;
+    align-content: center;
+    border-radius: 0 8px 8px 0;
+   
+
+}
+
+.linkcadastro {
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
+}
+
+.btn-cadastro {
+    padding: 10px;
+    color: #000000;
+}
+.btn-cadastro:hover{
+    color: #000000;
+}
+
+.imagemcarrinho {
+    width: 24px;
+    height: 24px;
+}
+
+.butao {
+    background-color: #C92071;
+    width: 114px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #F5F5F5;
+    font-size: 14px;
+    font-family: "Inter" sans-serif;
+}
+/* TUDO ACIMA FAZ PARTE DA HEADER*/
+
+.links{
+    display: flex;
+}
+.links a{
+    color:rgb(0, 0, 0);
+    list-style: none;
+    font-weight: 700;
+    text-decoration: none;
+}
+.lista{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-left: 40px;
+}
+.lista a:hover{
+    text-decoration: underline;
+    color: rgb(201 32 113) ;
+}
