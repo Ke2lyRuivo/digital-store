@@ -8,9 +8,10 @@ body {
 .filtro {
   border: 1px solid lightgray;
   background-color: white;
-  margin: 30px;
+  margin: 20px;
+  margin-left: 20px;
  height: 720px;
- width: 250px;
+ width: 180px;
   
   padding: 30px;
  
@@ -39,8 +40,8 @@ body {
 
   
 #filtro{
-  width: 22px;
-  height: 22px;
+  width: 15px;
+  height: 15px;
   
   
 }
@@ -54,6 +55,9 @@ input[type="radio"] {
 #um{
   padding-top: 30px;
   margin-bottom: -20px;
+  font-family: "inter", sans-serif;
+  font-weight: bolder;
+  font-size: 16px;
 }
 
 
@@ -71,24 +75,28 @@ p.categorias { font-family: "inter", sans-serif;
 .linha {
   border-bottom: 1px solid;
   color: lightgray;
-  width: 248px;
+  width: 200px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -38px;
+  margin-left: -50px;
   margin-bottom: 0px;
    
 }
 
 .grade {
-  display: flex;
+  display:flex;
+  flex-wrap: wrap;
+  gap: 5px;
   margin: -5px;
   margin-top: 5px;
+  
   
 }
 
 .Cartão {
   display: grid;
+ 
 }
 
 .balão {
@@ -109,14 +117,14 @@ p.categorias { font-family: "inter", sans-serif;
   height: 150px;
   top: 332px;
   left: 436px;
-  padding: 35px;
+  padding: 20px;
   margin: 10px;
   margin-top: 15px;
 }
 .tenis {
   margin-left: -45px;
   margin-top: -25px;
-  width: 248px;
+  width: 230px;
   /* height: 134px; */
   top: 495px;
   left: 426px;
