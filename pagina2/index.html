@@ -6,402 +6,394 @@
     <title>Document</title>
 
     <style>
-      @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-      </style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+    </style>
     <link rel="stylesheet" href="style.css" />
-    
   </head>
   <body>
-    <nav></nav>
+    <header class="cabeca">
+      <div class="divheadertoda">
+        <div class="imagemlogodigital">
+          <img src="./img/logo.png" alt="logotipo da drip store" />
+        </div>
+
+        <!-- <div class="divpesquisar">
+          <nav>
+             <input
+              class="campopesquisar"
+              type="text"
+              id="nome"
+              placeholder="Pesquisar produtos..."
+            /> -->
+        <!-- </nav>
+          <a class="lupa" href=""
+            ><img id="lupinha" src="./img/Search.png" alt="" />pesquisar
+            produto...</a
+          >
+        </div> -->
+
+        <div class="container-pesquisa">
+          <input
+            type="text"
+            class="input-pesquisa"
+            placeholder="Pesquisar produto..."
+          />
+          <img src="img/Search.png" alt="Buscar" class="icone-lupa" />
+        </div>
+
+        <div class="linkcadastro">
+          <a class="linkcadastrese btn-cadastro" href="">Cadastre-se</a>
+
+          <button type="button" class="butao">Entrar</button>
+
+          <img
+            class="imagemcarrinho"
+            src="./img/carrinhodecompras.png"
+            alt=""
+          />
+        </div>
+      </div>
+
+      <nav class="links">
+        <ul class="lista">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#meuspedidos">Meus Pedidos</a></li>
+        </ul>
+      </nav>
+    </header>
+
     <!-- Filtro -->
+    <main class="principal">
       <section class="filtro">
-      <div class="geral">        
-        <p class="categorias" id="um">Filtrar por</p>
-        <hr>
-        <p class="linha"></p>
-        <p class="categorias">Marca</p>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="marca" value="adidas" />
-          <label for="adidas">Adidas</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="marca" value="calenciaga" />
-          <label for="calenciaga">Calenciaga</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="marca" value="kswiss" />
-          <label for="kswiss">K-Swiss</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="marca" value="nike" />
-          <label for="nike">Nike</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="marca" value="puma" />
-          <label for="puma">Puma</label>
-        </div>
-        <p class="categorias">Categoria</p>
-        <div class="marcador">
-          <input
-            type="checkbox"
-            id="filtro"
-            name="categoria"
-            value="esporteLazer"
-          />
-          <label for="esporteLazer">Esporte e Lazer</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="categoria" value="casual" />
-          <label for="casual">Casual</label>
-        </div>
-        <div class="marcador">
-          <input
-            type="checkbox"
-            id="filtro"
-            name="categoria"
-            value="utilitario"
-          />
-          <label for="utilitario">Utilitário</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="categoria" value="corrida" />
-          <label for="corrida">Corrida</label>
-        </div>
-        <p class="categorias">Gênero</p>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="genero" value="masculino" />
-          <label for="masculino">Masculino</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="genero" value="feminino" />
-          <label for="feminino">Feminino</label>
-        </div>
-        <div class="marcador">
-          <input type="checkbox" id="filtro" name="genero" value="unisex" />
-          <label for="unisex">Unisex</label>
-        </div>
-        <p class="categorias">Estado</p>
-        <div class="marcador">
-          <input type="radio" id="filtro" name="estado" value="novo" />
-          <label for="novo">Novo</label>
-        </div>
-        <div class="marcador">
-          <input type="radio" id="filtro" name="estado" value="usado" />
-          <label for="usado">Usado</label>
-        </div>
-      </div>
-    </section>
-    <!-- Cartão de calçados 1-->
-    <section class="grade">
-      <div class="cartão">
-        <div class="imagem">
-          <p class="balão">30% off</p>
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="geral">
+          <p class="categorias" id="um">Filtrar por</p>
+          <hr />
+          <p class="linha"></p>
+          <p class="categorias">Marca</p>
+          <div class="marcador">
+            <input type="checkbox" id="filtro" name="marca" value="adidas" />
+            <label for="adidas">Adidas</label>
+          </div>
+          <div class="marcador">
+            <input
+              type="checkbox"
+              id="filtro"
+              name="marca"
+              value="calenciaga"
+            />
+            <label for="calenciaga">Calenciaga</label>
+          </div>
+          <div class="marcador">
+            <input type="checkbox" id="filtro" name="marca" value="kswiss" />
+            <label for="kswiss">K-Swiss</label>
+          </div>
+          <div class="marcador">
+            <input type="checkbox" id="filtro" name="marca" value="nike" />
+            <label for="nike">Nike</label>
+          </div>
+          <div class="marcador">
+            <input type="checkbox" id="filtro" name="marca" value="puma" />
+            <label for="puma">Puma</label>
+          </div>
+          <p class="categorias">Categoria</p>
+          <div class="marcador">
+            <input
+              type="checkbox"
+              id="filtro"
+              name="categoria"
+              value="esporteLazer"
+            />
+            <label for="esporteLazer">Esporte e Lazer</label>
+          </div>
+          <div class="marcador">
+            <input
+              type="checkbox"
+              id="filtro"
+              name="categoria"
+              value="casual"
+            />
+            <label for="casual">Casual</label>
+          </div>
+          <div class="marcador">
+            <input
+              type="checkbox"
+              id="filtro"
+              name="categoria"
+              value="utilitario"
+            />
+            <label for="utilitario">Utilitário</label>
+          </div>
+          <div class="marcador">
+            <input
+              type="checkbox"
+              id="filtro"
+              name="categoria"
+              value="corrida"
+            />
+            <label for="corrida">Corrida</label>
+          </div>
+          <p class="categorias">Gênero</p>
+          <div class="marcador">
+            <input
+              type="checkbox"
+              id="filtro"
+              name="genero"
+              value="masculino"
+            />
+            <label for="masculino">Masculino</label>
+          </div>
+          <div class="marcador">
+            <input type="checkbox" id="filtro" name="genero" value="feminino" />
+            <label for="feminino">Feminino</label>
+          </div>
+          <div class="marcador">
+            <input type="checkbox" id="filtro" name="genero" value="unisex" />
+            <label for="unisex">Unisex</label>
+          </div>
+          <p class="categorias">Estado</p>
+          <div class="marcador">
+            <input type="radio" id="filtro" name="estado" value="novo" />
+            <label for="novo">Novo</label>
+          </div>
+          <div class="marcador">
+            <input type="radio" id="filtro" name="estado" value="usado" />
+            <label for="usado">Usado</label>
           </div>
         </div>
-      </div>
-
-      <div class="cartão">
-        <div class="imagem">
-          <p class="balão">30% off</p>
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+      </section>
+      <!-- Cartão de calçados 1-->
+      <section class="grade">
+        <div class="cartão">
+          <div class="imagem">
+            <p class="balão">30% off</p>
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <p class="balão">30% off</p>
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- cartão de calçados 2 "meio da tela" -->
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <!-- cartão de calçados 2 "meio da tela" -->
+
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <!-- ultima seção de calçados -->
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <!-- ultima seção de calçados -->
+
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
+        <div class="cartão">
+          <div class="imagem">
+            <!-- <p class="balão">30% off</p> -->
+            <img class="tenis" src="img/Tenis.png" alt="Tênis" />
+          </div>
+          <div class="textos">
+            <p class="textotenis">Tênis</p>
+            <p class="modelotenis">K-Swiss V8 - Masculino</p>
+            <div class="preco">
+              <p class="preco1">$200</p>
+              <p class="preco2">$100</p>
+            </div>
           </div>
         </div>
-      </div>
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="cartão">
-        <div class="imagem">
-          <!-- <p class="balão">30% off</p> -->
-          <img class="tenis" src="img/Tenis.png" alt="Tênis" />
-        </div>
-        <div class="textos">
-          <p class="textotenis">Tênis</p>
-          <p class="modelotenis">K-Swiss V8 - Masculino</p>
-          <div class="preco">
-            <p class="preco1">$200</p>
-            <p class="preco2">$100</p>
-          </div>
-        </div>
-      </div>
-
-      
-
-      
-    </section>
+      </section>
+    </main>
   </body>
 </html>

@@ -1,22 +1,177 @@
 body {
-  background-color: lightgray;
-  display: flex;
+  background-color: whitesmoke;
+  display: wrap;
   width: 100vw;
-  height: 100vh;
+  height: 100vw;
+}
+
+.divheadertoda {
+  display: flex;
+  align-items: center;
+  background-color: white;
+  /* justify-content: space-between; */
+  padding: -30px;
+  height: 200px;
+  margin-top: -30px;
+  margin-bottom: -40px;
+  margin-left: -20px;
+}
+
+.cabeça {
+  background-color: white;
+}
+
+.imagemlogodigital {
+  margin-left: 50px;
+}
+
+.divpesquisar {
+  display: flex;
+}
+
+.divpesquisar {
+  display: flex;
+}
+
+.campopesquisar {
+  width: 530px;
+  height: 64px;
+  border-radius: 8px 0 0 8px;
+  background-color: rgb(244, 244, 244);
+  padding-left: 33px;
+  margin-left: 10px;
+  border: none;
+}
+
+.divpesquisar {
+  align-items: center;
+}
+
+/* .lupa {
+  padding: 0 10px 0 0;
+  justify-content: center;
+  background-color: rgb(244, 244, 244);
+  height: 60px;
+  width: 400px;
+  margin-left: 10px;
+  margin-right: -10px;
+  margin-top: ;
+  align-content: center;
+  border-radius: 8px 8px 8px 8px;
+  text-decoration: none;
+
+  color: #666666;
+} */
+
+/* #lupinha {
+  margin-left: 370px;
+  text-decoration: none;
+  text-align: center;
+  margin-top: -25px;
+} */
+
+.container-pesquisa {
+  background-color: whitesmoke; /*campo de pesquisa*/
+  display: flex;
+  align-items: center;
+  border: 1px none #666666;
+  border-radius: 8px;
+  padding-left: 10px; /* Espaço à esquerda para o texto */
+  padding-right: 10px; /* Espaço à direita para a lupa */
+  overflow: hidden; /*borda*/
+  margin-left: 15px;
+  margin-right: -10px;
+  height: 60px;
+}
+
+.input-pesquisa {
+  background-color: whitesmoke; /*campo de pesquisa*/
+  border: none;
+  outline: none;
+  width: 370px;
+  flex-grow: 1; /* Faz o input ocupar o espaço restante */
+  padding: 8px 0; /* Espaçamento vertical dentro do input */
+  font-size: 13px; /* Tamanho da fonte do texto (opcional) */
+}
+
+.icone-lupa {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.linkcadastro {
+  display: flex;
+  gap: 40px;
+  margin-left: 30px;
+}
+
+.btn-cadastro {
+  padding: 10px;
+  color: #000000;
+}
+.btn-cadastro:hover {
+  color: #000000;
+}
+
+.imagemcarrinho {
+  width: 27px;
+  height: 27px;
+  margin-left: -20px;
+}
+
+.butao {
+  background-color: #c92071;
+  width: 114px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  color: #f5f5f5;
+  font-size: 14px;
+  font-family: "Inter" sans-serif;
+  margin-left: -40px;
+}
+
+.links {
+  display: flex;
+  background-color: white;
+  width: auto;
+  margin-top: -50px;
+}
+.links a {
+  color: #474747;
+  list-style: none;
+  font-weight: 400;
+  text-decoration: none;
+}
+.lista {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  margin-left: 40px;
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+.lista a:hover {
+  text-decoration: underline;
+  color: rgb(201 32 113);
+}
+
+.principal {
+  display: flex;
+  grid-template-columns: auto;
 }
 
 .filtro {
-  border: 1px solid lightgray;
+  border: 1px none lightgray;
   background-color: white;
   margin: 20px;
   margin-left: 20px;
- height: 720px;
- width: 180px;
-  
-  padding: 30px;
- 
-}
+  height: 720px;
+  width: 180px;
 
+  padding: 20px;
+}
 
 .geral {
   margin-top: -50px;
@@ -24,26 +179,19 @@ body {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  
+
   padding: 20px;
   font-size: 14px;
-  
 }
 
-.marcador  {
+.marcador {
   margin-left: -40px;
   padding: -15px;
-  
-  }
+}
 
-  
-
-  
-#filtro{
+#filtro {
   width: 15px;
   height: 15px;
-  
-  
 }
 input[type="checkbox"] {
   accent-color: #c92071; /* Define a cor da checkbox para pink */
@@ -52,7 +200,7 @@ input[type="radio"] {
   accent-color: #c92071; /* Define a cor da checkbox para pink */
 }
 
-#um{
+#um {
   padding-top: 30px;
   margin-bottom: -20px;
   font-family: "inter", sans-serif;
@@ -60,43 +208,36 @@ input[type="radio"] {
   font-size: 16px;
 }
 
-
-
-p.categorias { font-family: "inter", sans-serif;
+p.categorias {
+  font-family: "inter", sans-serif;
   font-weight: bolder;
- 
-
 }
 
-.categorias{
+.categorias {
   margin-left: -30px;
 }
 
 .linha {
   border-bottom: 1px solid;
   color: lightgray;
-  width: 200px;
+  width: 150px;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: -50px;
+  margin-left: -35px;
   margin-bottom: 0px;
-   
 }
 
 .grade {
-  display:flex;
+  display: flex;
   flex-wrap: wrap;
   gap: 5px;
   margin: -5px;
   margin-top: 5px;
-  
-  
 }
 
 .Cartão {
   display: grid;
- 
 }
 
 .balão {
@@ -113,29 +254,28 @@ p.categorias { font-family: "inter", sans-serif;
 
 .imagem {
   background-color: white;
-  width: 195px;
+  width: 190px;
   height: 150px;
   top: 332px;
-  left: 436px;
+  left: 420px;
   padding: 20px;
-  margin: 10px;
+  margin: 5px;
   margin-top: 15px;
 }
 .tenis {
   margin-left: -45px;
   margin-top: -25px;
-  width: 230px;
+  width: 220px;
   /* height: 134px; */
   top: 495px;
-  left: 426px;
+  left: 410px;
   justify-items: center;
   justify-content: center;
-  
 }
 .textotenis {
   color: #8f8f8f;
   font-family: inter;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 0.75px;
@@ -146,9 +286,9 @@ p.categorias { font-family: "inter", sans-serif;
 .modelotenis {
   color: #474747;
   font-family: inherit;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 38px;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 30px;
   letter-spacing: 0.75px;
   margin: 0;
   margin-bottom: -12px;
