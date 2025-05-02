@@ -46,32 +46,7 @@
     height: 20px;
     cursor: pointer;
   }
-  
 
-/* .campopesquisar {
-    width: 530px;
-    height: 64px;
-    border-radius: 8px 0 0 8px;
-    background-color: rgb(244, 244, 244);
-    padding-left: 33px;
-    margin-left: 10px;
-    border: none;
-}
-
-.divpesquisar {
-    opacity: 60%;
-    align-items: center;
-    border: none;
-}
-
-.lupa {
-    padding: 0 10px 0 0;
-    justify-content: center;
-    background-color: rgb(244, 244, 244);
-    height: 64px;
-    align-content: center;
-    border-radius: 0 8px 8px 0;   
-} */
 .linkcadastro {
     display: flex;
     gap: 40px;
@@ -198,26 +173,43 @@
     font-weight: 700;
     margin-left: 45px;
     font-family: "Inter", sans-serif;
+    font-size: 24px;
 }
 .divPrincipalColecoes{
     display: flex;
     justify-content: space-around;
     margin: 30px;
+    
 }
 .divBlusaSupreme{
+    display: flex;
     background-color: rgb(216 227 242);
     border-radius: 8px;
+    width: 405px;
+    height: 251px;
+    justify-content: end;
+   
     
 }
 .divSapatoAdidas{
     background-color: rgb(216 227 242);
     border-radius: 8px;
-    padding: 24px;
+    width: 405px;
+    height: 251px;
+    display: flex;
+    justify-content: end;
+
+
+    
     
 }
 .divFoneBeatsBass{
     background-color: rgb(216 227 242);
     border-radius: 8px;
+    width: 405px;
+    height: 251px;
+    display: flex;
+    justify-content: end;
     
     
 }
