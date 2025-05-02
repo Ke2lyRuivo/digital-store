@@ -17,7 +17,38 @@
     display: flex;
 }
 
-.campopesquisar {
+.container-pesquisa {
+    background-color: whitesmoke; /*campo de pesquisa*/
+    display: flex;
+    align-items: center;
+    border: 1px none #666666;
+    border-radius: 8px;
+    padding-left: 10px; /* Espaço à esquerda para o texto */
+    padding-right: 10px; /* Espaço à direita para a lupa */
+    overflow: hidden; /*borda*/
+    margin-left: 15px;
+    margin-right: -10px;
+    height: 60px;
+  }
+  
+  .input-pesquisa {
+    background-color: whitesmoke; /*campo de pesquisa*/
+    border: none;
+    outline: none;
+    width: 370px;
+    flex-grow: 1; /* Faz o input ocupar o espaço restante */
+    padding: 8px 0; /* Espaçamento vertical dentro do input */
+    font-size: 13px; /* Tamanho da fonte do texto (opcional) */
+  }
+  
+  .icone-lupa {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+
+/* .campopesquisar {
     width: 530px;
     height: 64px;
     border-radius: 8px 0 0 8px;
@@ -40,7 +71,7 @@
     height: 64px;
     align-content: center;
     border-radius: 0 8px 8px 0;   
-}
+} */
 .linkcadastro {
     display: flex;
     gap: 40px;
@@ -76,7 +107,7 @@
     margin-bottom: 18px;
 }
 .links a {
-    color: rgb(0, 0, 0);
+    color: #474747;
     list-style: none;
     font-weight: 600;
     font-size: 110%;
