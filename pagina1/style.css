@@ -1,25 +1,23 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
-
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-
 .divheadertoda {
-  display: flex;
-  align-items: center;
-  /* justify-content: space-between; */
-  margin-top: 30px;
-  margin-bottom: 40px;
-  margin-left: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin-top: 30px;
+    margin-bottom: 40px;
+    margin-left: 20px;
 }
 
 .imagemlogodigital {
-  margin-left: 50px;
+    margin-left: 50px;
+
+
 }
 
 .divpesquisar {
-  display: flex;
+    display: flex;
 }
 
-/* .campopesquisar {
+.campopesquisar {
     width: 530px;
     height: 64px;
     border-radius: 8px 0 0 8px;
@@ -41,56 +39,157 @@
     background-color: rgb(244, 244, 244);
     height: 64px;
     align-content: center;
-    border-radius: 0 8px 8px 0;
-   
-
+    border-radius: 0 8px 8px 0;   
 }
 .linkcadastro {
-  display: flex;
-  gap: 40px;
-  margin-left: 30px;
+    display: flex;
+    gap: 40px;
+    margin-left: 30px;
 }
 
 .btn-cadastro {
     padding: 10px;
     color: #000000;
+    opacity: 70%;
 }
-.btn-cadastro:hover{
+
+.btn-cadastro:hover {
     color: #000000;
 }
 .imagemcarrinho {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
+}
+.entrar {
+    background-color: #C92071;
+    width: 124px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: "Inter" sans-serif;   
+}
+.links {
+    display: flex;
+    margin-top: 60px;
+    margin-bottom: 18px;
+}
+.links a {
+    color: rgb(0, 0, 0);
+    list-style: none;
+    font-weight: 600;
+    font-size: 110%;
+    text-decoration: none;
 }
 
-.butao {
-    background-color: #C92071;
-    width: 114px;
-    height: 40px;
+.lista {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    margin-left: 36px;
+}
+
+.lista a:hover {
+    text-decoration: underline;
+    color: rgb(201 32 113);
+}
+
+/*===================== TUDO ACIMA FAZ PARTE DA HEADER=========================*/
+
+
+.sectionqueimaestoque {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    font-family: "inter" sans-serif;
+}
+
+.divqueima {
+    background-color: rgb(245 245 245);
+    display: flex;
+    padding: 100px;
+}
+
+.melhores {
+    font-size: 120%;
+    color: rgb(246 170 28);
+    margin-top: 20px;
+    font: 16px;
+}
+
+.queimadeestoque {
+    font-size: 380%;
+    font-weight: 700;
+    font: 64px;
+    
+}
+
+.consequat {
+    font-size: 17px;
+    opacity: 80%;
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+    line-height: 1.6;
+    
+}
+
+.btn-verofertas {
+    background-color: rgb(201 32 113);
+    width: 210px;
+    height: 50px;
     border: none;
     border-radius: 8px;
     color: #F5F5F5;
     font-size: 14px;
     font-family: "Inter" sans-serif;
 }
-/* TUDO ACIMA FAZ PARTE DA HEADER*/
+.sapato{
+    display: flex;
+    justify-content: end;
+    width: 100%;
+    height: 650px;
+}
 
-.links{
-    display: flex;
+.colecoesEmDestaqueUm{
+    background-color: rgb(249 248 254);
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    width: 100%;
+    height: 50%;
+
 }
-.links a{
-    color:rgb(0, 0, 0);
-    list-style: none;
+.textoColecoesUm{
+    display: flex;
+    justify-content: center;
+    letter-spacing: .75px;
+    line-height: 24px;
     font-weight: 700;
-    text-decoration: none;
+    margin-left: 45px;
+    font-family: "Inter", sans-serif;
 }
-.lista{
+.divPrincipalColecoes{
     display: flex;
-    list-style: none;
-    gap: 2rem;
-    margin-left: 40px;
+    justify-content: space-around;
+    margin: 30px;
 }
-.lista a:hover{
-    text-decoration: underline;
-    color: rgb(201 32 113) ;
+.divBlusaSupreme{
+    background-color: rgb(216 227 242);
+    border-radius: 8px;
+    
+}
+.divSapatoAdidas{
+    background-color: rgb(216 227 242);
+    border-radius: 8px;
+    padding: 24px;
+    
+}
+.divFoneBeatsBass{
+    background-color: rgb(216 227 242);
+    border-radius: 8px;
+    
+    
+}
+.colecoesEmDestaqueDois{
+    background-color: burlywood;
 }
