@@ -13,6 +13,7 @@ padding: 20px 0;
 border-radius: 8px;
 margin-top: 3290px;
 width: 100%;
+font-family: "inter";
 }
 
 .div1{
@@ -50,13 +51,29 @@ width: 100%;
 .div-principal{
     display: flex;
     justify-content: space-around;
+    padding-bottom: 40px;
     
     
 }
 .p-final{
     text-align: center;
 }
+.p-final:hover{
+    color: white;
+    cursor: auto;
+}
 .redes{
     display: flex;
     gap: 30px;
+}
+footer p{
+    color: white;
+    cursor: pointer;
+}
+footer p:hover{
+    color:#C92071;
+}
+.p-inicial:hover{
+    color: white;
+    cursor: auto;
 }
