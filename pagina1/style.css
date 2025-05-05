@@ -1,7 +1,6 @@
 .divheadertoda {
     display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     margin-top: 30px;
     margin-bottom: 40px;
     margin-left: 20px;
@@ -18,34 +17,43 @@
 }
 
 .container-pesquisa {
-    background-color: whitesmoke; /*campo de pesquisa*/
+    background-color: whitesmoke;
+    /*campo de pesquisa*/
     display: flex;
     align-items: center;
     border: 1px none #666666;
     border-radius: 8px;
-    padding-left: 10px; /* Espaço à esquerda para o texto */
-    padding-right: 10px; /* Espaço à direita para a lupa */
-    overflow: hidden; /*borda*/
+    padding-left: 10px;
+    /* Espaço à esquerda para o texto */
+    padding-right: 10px;
+    /* Espaço à direita para a lupa */
+    overflow: hidden;
+    /*borda*/
     margin-left: 15px;
     margin-right: -10px;
     height: 60px;
-  }
-  
-  .input-pesquisa {
-    background-color: whitesmoke; /*campo de pesquisa*/
+}
+
+.input-pesquisa {
+    background-color: whitesmoke;
+    /*campo de pesquisa*/
     border: none;
     outline: none;
-    width: 370px;
-    flex-grow: 1; /* Faz o input ocupar o espaço restante */
-    padding: 8px 0; /* Espaçamento vertical dentro do input */
-    font-size: 13px; /* Tamanho da fonte do texto (opcional) */
-  }
-  
-  .icone-lupa {
+    /* Tamanho do campo pesquisar */
+    width: 510px;
+    flex-grow: 1;
+    /* Faz o input ocupar o espaço restante */
+    padding: 8px 0;
+    /* Espaçamento vertical dentro do input */
+    font-size: 13px;
+    /* Tamanho da fonte do texto (opcional) */
+}
+
+.icone-lupa {
     width: 20px;
     height: 20px;
     cursor: pointer;
-  }
+}
 
 .linkcadastro {
     display: flex;
@@ -62,10 +70,12 @@
 .btn-cadastro:hover {
     color: #000000;
 }
+
 .imagemcarrinho {
     width: 30px;
     height: 30px;
 }
+
 .entrar {
     background-color: #C92071;
     width: 124px;
@@ -74,13 +84,15 @@
     border-radius: 8px;
     color: #ffffff;
     font-size: 14px;
-    font-family: "Inter" sans-serif;   
+    font-family: "Inter" sans-serif;
 }
+
 .links {
     display: flex;
     margin-top: 60px;
     margin-bottom: 18px;
 }
+
 .links a {
     color: #474747;
     list-style: none;
@@ -101,7 +113,7 @@
     color: rgb(201 32 113);
 }
 
-/*===================== TUDO ACIMA FAZ PARTE DA HEADER=========================*/
+/*===================== TUDO ACIMA FAZ PARTE DA HEADER =========================*/
 
 
 .sectionqueimaestoque {
@@ -125,19 +137,30 @@
 }
 
 .queimadeestoque {
-    font-size: 380%;
+    font-size: 64px;
     font-weight: 700;
-    font: 64px;
-    
+    font-style: normal;
+
+
+
+}
+
+.imgfoguinho {
+    display: flex;
+    justify-self: end;
+    /* Abaixo posicionamento da imagem foguinho */
+    position: absolute;
+    left: 500px;
+    top: 440px;
 }
 
 .consequat {
-    font-size: 17px;
+    font-size: 17.5px;
     opacity: 80%;
     font-weight: 400;
-    margin: 20px 0 20px 0;
+    margin: 40px 0 40px 0;
     line-height: 1.6;
-    
+
 }
 
 .btn-verofertas {
@@ -150,14 +173,18 @@
     font-size: 14px;
     font-family: "Inter" sans-serif;
 }
-.sapato{
+
+.sapato {
     display: flex;
-    justify-content: end;
-    width: 100%;
-    height: 650px;
+    width: 1000px;
+    height: 690px;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+
 }
 
-.colecoesEmDestaqueUm{
+.colecoesEmDestaqueUm {
     background-color: rgb(249 248 254);
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
@@ -165,54 +192,418 @@
     height: 50%;
 
 }
-.textoColecoesUm{
+
+.textoColecoesUm {
     display: flex;
     justify-content: center;
     letter-spacing: .75px;
     line-height: 24px;
     font-weight: 700;
-    margin-left: 45px;
     font-family: "Inter", sans-serif;
     font-size: 24px;
 }
-.divPrincipalColecoes{
+
+.divPrincipalColecoes {
     display: flex;
     justify-content: space-around;
-    margin: 30px;
-    
+    margin: 40px;
+    margin-bottom: 130px;
 }
-.divBlusaSupreme{
+
+.divBlusaSupreme {
     display: flex;
     background-color: rgb(216 227 242);
     border-radius: 8px;
-    width: 405px;
-    height: 251px;
-    justify-content: end;
-   
-    
-}
-.divSapatoAdidas{
-    background-color: rgb(216 227 242);
-    border-radius: 8px;
-    width: 405px;
-    height: 251px;
-    display: flex;
+    width: 390px;
+    height: 245px;
     justify-content: end;
 
-
-    
-    
 }
-.divFoneBeatsBass{
+
+.trintaoff {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: .75px;
+    background-color: rgb(231 255 134);
+    /* Alinhamento da Div 30OFF */
+    position: absolute;
+    top: 1030px;
+    left: 110px;
+    width: 100px;
+
+}
+
+.novodrop {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    letter-spacing: .5px;
+    line-height: 36px;
+    font-weight: 790;
+    width: 190px;
+    height: 80%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.btncomprarsupreme {
+    border-radius: .5rem;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: .75px;
+    line-height: 24px;
+    width: 153px;
+    height: 48px;
+    color: rgb(201 32 113);
+    position: absolute;
+    right: 1260px;
+    top: 1175px;
+    background-color: rgb(255 255 255);
+}
+
+.btncomprarsupreme:hover {
+    background-color: rgb(149, 189, 254);
+    transition-duration: 0.5s;
+    color: rgb(245 245 245);
+
+}
+
+.divSapatoAdidas {
     background-color: rgb(216 227 242);
     border-radius: 8px;
-    width: 405px;
-    height: 251px;
+    width: 390px;
+    height: 245px;
     display: flex;
     justify-content: end;
-    
+}
+
+.trintaoffdois {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: .75px;
+    background-color: rgb(231 255 134);
+    /* Alinhamento da Div 30OFF */
+    position: absolute;
+    top: 1030px;
+    left: 595px;
+    width: 100px;
+}
+
+.novodropdois {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    letter-spacing: .5px;
+    line-height: 36px;
+    font-weight: 790;
+    width: 190px;
+    height: 80%;
+    margin-left: 35%;
+    margin-top: 20px;
+}
+
+.btncompraradidas {
+    border-radius: .5rem;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: .75px;
+    line-height: 24px;
+    width: 153px;
+    height: 48px;
+    color: rgb(201 32 113);
+    position: absolute;
+    right: 777px;
+    top: 1175px;
+    background-color: rgb(255 255 255);
+}
+
+.btncompraradidas:hover {
+    background-color: rgb(149, 189, 254);
+    transition-duration: 0.5s;
+    color: rgb(245 245 245);
+}
+
+.divFoneBeatsBass {
+    background-color: rgb(216 227 242);
+    border-radius: 8px;
+    width: 390px;
+    height: 245px;
+    display: flex;
+    justify-content: end;
+}
+
+.trintaofftres {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    border-radius: 1.5rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    letter-spacing: .75px;
+    background-color: rgb(231 255 134);
+    /* Alinhamento da Div 30OFF */
+    position: absolute;
+    top: 1017px;
+    left: 1075px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.novodroptres {
+    display: flex;
+    align-items: center;
+    font-size: 33px;
+    letter-spacing: .5px;
+    line-height: 36px;
+    font-weight: 790;
+    width: 180px;
+    height: 80%;
+    margin-left: 25%;
+    margin-top: 20px;
+}
+
+.btncomprarfone {
+    border-radius: .5rem;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-family: "inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: .75px;
+    line-height: 24px;
+    width: 153px;
+    height: 48px;
+    color: rgb(201 32 113);
+    position: absolute;
+    right: 298px;
+    top: 1175px;
+    background-color: rgb(255 255 255);
+}
+
+.btncomprarfone:hover {
+    background-color: rgb(149, 189, 254);
+    transition-duration: 0.5s;
+    color: rgb(245 245 245);
+}
+
+.colecoesEmDestaqueDois {
+    justify-content: center;
+    background-color: rgb(249 248 254);
+}
+
+.iconescolecoes {
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding: 80px;
+    gap: 52px;
+}
+
+.secprincipalicones {
+    background-color: rgb(249 248 254);
+    padding-bottom: 50px;
+
+}
+
+.secblusas {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.blusas {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+
+}
+
+.textoblusa {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.seccalcas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.calcas {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+}
+
+.textocalca {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.secbones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.bones {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 54px;
+}
+
+.textobones {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.secheadphones {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.headphones {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 64px;
+}
+
+.textoheadphones {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+}
+
+.sectenis {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    gap: 30px;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.50);
+}
+
+.tenis {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin-top: 60px;
+}
+
+.textotenis {
+    font-weight: 630;
+    font-family: "inter" sans-serif;
+    font-size: larger;
+    font: normal;
+
+}
+
+.textosecprodutosalta {
+    display: flex;
+    background-color: rgb(249 248 254);
+    padding-left: 100px;
+    font-size: x-large;
+    font-weight: 650;
+    color: #665d5d;
+    margin-right: 1017px;
     
 }
-.colecoesEmDestaqueDois{
-    background-color: burlywood;
+
+.secprodutosalta {
+    display: flex;
+    background-color:rgb(249 248 254) ;
+    
+}
+
+.textoprodutos {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+
+}
+
+.linkvertodos {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-decoration: none;
+    color: #C92071;
+}
+.setinha{
+    color: #C92071;
+    text-decoration-color:#C92071;
 }
