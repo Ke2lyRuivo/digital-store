@@ -1,0 +1,39 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 10px;
+
+}
+ 
+.container{
+    display: flex;
+    gap: 50px;
+    padding: 75px;
+}
+
+.tenisgrande{
+
+    
+}
+.tenispequeno{
+   display: flex;
+
+}
+.ladoDireito{
+    display: flex;
+    flex-direction: column;
+}
+
+.ladoEsquerdo{
+    display: flex;
+    flex-direction: column;
+}
+.avaliacoes{
+    display: flex;
+
+}
+
+.tamanhos{
+    display: flex;    
+}
