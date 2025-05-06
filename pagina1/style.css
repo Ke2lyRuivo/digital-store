@@ -1,4 +1,128 @@
+.cabeca {
+    background-color: white;
+    padding: 15px;
+}
+
 .divheadertoda {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.imagemlogodigital img {
+    max-width: 150px;
+    height: auto;
+}
+
+.container-pesquisa {
+    background-color: whitesmoke;/campo de pesquisa/ display: flex;
+    align-items: center;
+
+    border-radius: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-left: 15px;
+    height: 40px;
+    /* Reduzindo a altura para telas menores */
+}
+
+.input-pesquisa {
+
+background-color: whitesmoke;
+/*campo de pesquisa*/
+border: none;
+outline: none;
+/* Tamanho do campo pesquisar */
+width: 510px;
+flex-grow: 1;
+/* Faz o input ocupar o espaço restante */
+padding: 8px 0;
+/* Espaçamento vertical dentro do input */
+font-size: 13px;
+/* Tamanho da fonte do texto (opcional) */
+ }
+
+.icone-lupa {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.linkcadastro {
+    display: flex;
+    gap: 15px;
+    margin-left: 15px;
+}
+
+.btn-cadastro {
+    padding: 8px 12px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+}
+.btn-cadastro:hover {
+    color: #000000;
+}
+
+.entrar {
+    background-color: #c92071;
+    color: #f5f5f5;
+    border: none;
+    width: 124px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-family: "Inter", sans-serif;
+}
+
+.imagemcarrinho {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+
+.links {
+    background-color: white;
+    padding: 10px 20px;
+}
+.links a {
+    color: #474747;
+    /* list-style: none; */
+    font-weight: 600;
+    font-size: 110%;
+    text-decoration: none;
+}
+
+.lista {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+.lista a {
+    
+    color: #474747;
+    text-decoration: none;
+    font-size: 14px;
+}
+.lista a:hover {
+    list-style: none;
+    color: rgb(201 32 113);
+}
+
+.principal {
+    display: flex;
+    padding: 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+/* .divheadertoda {
     display: flex;
     align-items: center;
     margin-top: 30px;
@@ -17,39 +141,39 @@
 }
 
 .container-pesquisa {
-    background-color: whitesmoke;
-    /*campo de pesquisa*/
-    display: flex;
-    align-items: center;
-    border: 1px none #666666;
-    border-radius: 8px;
-    padding-left: 10px;
-    /* Espaço à esquerda para o texto */
-    padding-right: 10px;
-    /* Espaço à direita para a lupa */
-    overflow: hidden;
-    /*borda*/
-    margin-left: 15px;
-    margin-right: -10px;
-    height: 60px;
-}
+    background-color: whitesmoke; */
+/*campo de pesquisa*/
+/* display: flex; */
+/* align-items: center; */
+/* border: 1px none #666666; */
+/* border-radius: 8px; */
+/* padding-left: 10px; */
+/* Espaço à esquerda para o texto */
+/* padding-right: 10px; */
+/* Espaço à direita para a lupa */
+/* overflow: hidden; */
+/*borda*/
+/* margin-left: 15px; */
+/* margin-right: -10px; */
+/* height: 60px; */
+/* } */
 
-.input-pesquisa {
-    background-color: whitesmoke;
-    /*campo de pesquisa*/
-    border: none;
-    outline: none;
-    /* Tamanho do campo pesquisar */
-    width: 510px;
-    flex-grow: 1;
-    /* Faz o input ocupar o espaço restante */
-    padding: 8px 0;
-    /* Espaçamento vertical dentro do input */
-    font-size: 13px;
-    /* Tamanho da fonte do texto (opcional) */
-}
+/* .input-pesquisa { */
+/* background-color: whitesmoke; */
+/*campo de pesquisa*/
+/* border: none; */
+/* outline: none; */
+/* Tamanho do campo pesquisar */
+/* width: 510px; */
+/* flex-grow: 1; */
+/* Faz o input ocupar o espaço restante */
+/* padding: 8px 0; */
+/* Espaçamento vertical dentro do input */
+/* font-size: 13px; */
+/* Tamanho da fonte do texto (opcional) */
+/* } */
 
-.icone-lupa {
+/* .icone-lupa {
     width: 20px;
     height: 20px;
     cursor: pointer;
@@ -111,15 +235,16 @@
 .lista a:hover {
     text-decoration: underline;
     color: rgb(201 32 113);
-}
+} */
 
 /*===================== TUDO ACIMA FAZ PARTE DA HEADER =========================*/
 
+/* ==================== ABAIXO ESTILIZAÇÃO CARROUSSEL PAGINA UM =====================*/
 
 .sectionqueimaestoque {
     display: flex;
     width: 100%;
-    height: 700px;
+    height: 700PX;
     font-family: "inter" sans-serif;
 }
 
@@ -140,8 +265,6 @@
     font-size: 64px;
     font-weight: 700;
     font-style: normal;
-
-
 
 }
 
@@ -176,7 +299,7 @@
 
 .sapato {
     display: flex;
-    width: 1000px;
+    width: 100%;
     height: 690px;
     position: relative;
     bottom: 80px;
@@ -217,6 +340,7 @@
     width: 390px;
     height: 245px;
     justify-content: end;
+    position: relative;
 
 }
 
@@ -235,8 +359,8 @@
     background-color: rgb(231 255 134);
     /* Alinhamento da Div 30OFF */
     position: absolute;
-    top: 1030px;
-    left: 110px;
+    top: 30px;
+    left: 20px;
     width: 100px;
 
 }
@@ -268,8 +392,8 @@
     height: 48px;
     color: rgb(201 32 113);
     position: absolute;
-    right: 1260px;
-    top: 1175px;
+    right: 215px;
+    top: 180px;
     background-color: rgb(255 255 255);
 }
 
@@ -287,6 +411,7 @@
     height: 245px;
     display: flex;
     justify-content: end;
+    position: relative;
 }
 
 .trintaoffdois {
@@ -304,8 +429,8 @@
     background-color: rgb(231 255 134);
     /* Alinhamento da Div 30OFF */
     position: absolute;
-    top: 1030px;
-    left: 595px;
+    top: 30px;
+    left: 30px;
     width: 100px;
 }
 
@@ -336,8 +461,8 @@
     height: 48px;
     color: rgb(201 32 113);
     position: absolute;
-    right: 777px;
-    top: 1175px;
+    right: 205px;
+    top: 175px;
     background-color: rgb(255 255 255);
 }
 
@@ -354,6 +479,7 @@
     height: 245px;
     display: flex;
     justify-content: end;
+    position: relative;
 }
 
 .trintaofftres {
@@ -371,8 +497,8 @@
     background-color: rgb(231 255 134);
     /* Alinhamento da Div 30OFF */
     position: absolute;
-    top: 1017px;
-    left: 1075px;
+    top: 10px;
+    left: 30px;
     width: 100px;
     margin-top: 20px;
 }
@@ -404,8 +530,8 @@
     height: 48px;
     color: rgb(201 32 113);
     position: absolute;
-    right: 298px;
-    top: 1175px;
+    right: 205px;
+    top: 175px;
     background-color: rgb(255 255 255);
 }
 
@@ -579,13 +705,13 @@
     font-weight: 650;
     color: #665d5d;
     margin-right: 1017px;
-    
+
 }
 
 .secprodutosalta {
     display: flex;
-    background-color:rgb(249 248 254) ;
-    
+    background-color: rgb(249 248 254);
+
 }
 
 .textoprodutos {
@@ -603,11 +729,8 @@
     text-decoration: none;
     color: #C92071;
 }
-.setinha{
+
+.setinha {
     color: #C92071;
-    text-decoration-color:#C92071;
+    text-decoration-color: #C92071;
 }
-/* #carousselExampleDark{
-    display: flex;
-    justify-content: center;
-} */
