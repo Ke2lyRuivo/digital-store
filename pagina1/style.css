@@ -604,16 +604,75 @@ font-size: 13px;
 .secprodutosalta {
     display: flex;
     background-color: rgb(249 248 254);
+    
 
 }
 
 .textoprodutos {
-    display: flex;
+    display:block;
     align-items: center;
     justify-content: end;
     gap: 10px;
 
 }
+
+#jordan{
+    display: flex;
+    align-items: center;
+    
+}
+
+.jordangeral{
+    display: flex;
+    margin-left: 200px;
+    
+    
+    
+}
+
+.jordanimg{
+    padding-right: 90px;
+    margin-left: -70px;
+    
+
+}
+
+#jordanp{
+    color: #C92071;
+    font-family: "inter";
+    font-weight: 700px;
+    font-size: 14px;
+    line-height: 38px;
+    letter-spacing: 0.75px;
+   
+
+}
+
+.jordanp2{
+    font-family: "inter";
+    font-size: 48px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #474747;
+   
+
+}
+
+.button{
+    color: white;
+    background-color: #C92071;
+    width: 200px;
+    height: 40px;  
+    border: 1px none;  
+    border-radius: 8px;
+    
+    
+}
+
+.jordanbutton{
+
+}
+
 
 .linkvertodos {
     width: 100%;
