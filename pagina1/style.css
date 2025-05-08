@@ -16,9 +16,9 @@
 }
 
 .container-pesquisa {
-    background-color: whitesmoke;/campo de pesquisa/ display: flex;
+    background-color: whitesmoke;/*campo de pesquisa*/ 
+    display: flex;
     align-items: center;
-
     border-radius: 8px;
     padding-left: 10px;
     padding-right: 10px;
@@ -107,11 +107,14 @@ font-size: 13px;
     
     color: #474747;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 15px;
 }
 .lista a:hover {
     list-style: none;
-    color: rgb(201 32 113);
+    color: rgb(201 32 113);   
+    border-bottom: 3px solid rgb(201 32 113);
+    border-radius: 0px;
+    padding-bottom: 2px;
 }
 
 .principal {
@@ -127,15 +130,16 @@ font-size: 13px;
 /* ==================== ABAIXO ESTILIZAÇÃO CARROUSSEL PAGINA UM =====================*/
 
 .sectionqueimaestoque {
-    display: flex;
-    width: 100%;
-    height: 700PX;
-    font-family: "inter" sans-serif;
+    /* display: flex;  */
+    /* width: 100px; */
+    /* height: 700PX; */
+    /* font-family: "inter" sans-serif; */
 }
 
 .divqueima {
     background-color: rgb(245 245 245);
     display: flex;
+    position:relative;
     padding: 100px;
 }
 
@@ -159,7 +163,7 @@ font-size: 13px;
     /* Abaixo posicionamento da imagem foguinho */
     position: absolute;
     left: 500px;
-    top: 440px;
+    top: 230px;
 }
 
 .consequat {
@@ -168,7 +172,6 @@ font-size: 13px;
     font-weight: 400;
     margin: 40px 0 40px 0;
     line-height: 1.6;
-
 }
 
 .btn-verofertas {
@@ -186,10 +189,14 @@ font-size: 13px;
     display: flex;
     width: 100%;
     height: 690px;
-    position: relative;
+    /* position: relative; */
     bottom: 80px;
     left: 100px;
 
+}
+.bolinhasapato{
+    position: absolute;
+    right: 20px;
 }
 
 .colecoesEmDestaqueUm {
@@ -221,7 +228,7 @@ font-size: 13px;
 .divBlusaSupreme {
     display: flex;
     background-color: rgb(216 227 242);
-    border-radius: 8px;
+    border-radius: 10px;
     width: 390px;
     height: 245px;
     justify-content: end;
@@ -618,4 +625,95 @@ font-size: 13px;
 .setinha {
     color: #C92071;
     text-decoration-color: #C92071;
+}
+
+
+/*====================== TUDO ABAIXO É O FOOTER ============================*/
+
+
+body, html{
+    margin: 0px;
+    padding: 0;
+    
+}
+
+body{
+    max-width: 100vw;
+}
+
+footer {
+background: #1F1F1F;
+color: white;
+padding: 20px 0;
+border-radius: 5px;
+margin-top: 10px;
+width: 100%;
+font-family: "inter";
+}
+
+.div1{
+    width: 370px;
+    height: 78px;
+    top: 151;
+    left: 100px;
+
+}
+
+.div2{
+    width: 135px;
+    height: 278px;
+    top: 72px;
+    left: 612px;
+    
+}
+
+.div3{
+    width: 96px;
+    height: 240px;
+    top: 72px;
+    left: 849px;
+    
+}
+
+.div4{
+    width: 233px;
+    height: 168px;
+    top: 72px;
+    left: 1113px;
+    display: wrap;
+}
+
+.div-principal{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;   
+    
+}
+
+.p-final{
+    text-align: center;
+}
+
+.p-final:hover{
+    color: white;
+    cursor: auto;
+}
+
+.redes{
+    display: flex;
+    gap: 30px;
+}
+
+footer p{
+    color: white;
+    cursor: pointer;
+}
+
+footer p:hover{
+    color:#C92071;
+}
+
+.p-inicial:hover{
+    color: white;
+    cursor: auto;
 }
