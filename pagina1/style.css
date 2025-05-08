@@ -139,8 +139,9 @@ font-size: 13px;
 .divqueima {
     background-color: rgb(245 245 245);
     display: flex;
-    position:relative;
+    /* position:relative; */
     padding: 100px;
+    height: 720px;
 }
 
 .melhores {
