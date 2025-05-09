@@ -12,14 +12,41 @@
 }
 
 main{
-    background-color: crimson;
+    background-color: #b5b6f2;
     padding: 48px;
 }
 .formulario{
     background-color: #fff;
+    width: 400px;
+    padding: 8px;
+    padding-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 350px;
+    border-radius: 16px;
+    
     
 }
 .form{
     display: flex;
     flex-direction: column;
+}
+.main{
+    display: flex;
+}
+
+input{
+    height: 30px;
+    background-color: #f8f6f6;
+    border: none;
+    padding: 9px;
+}
+
+button{
+    background-color: #C92071;
+    color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    border:none ;
 }
