@@ -130,10 +130,7 @@ font-size: 13px;
 /* ==================== ABAIXO ESTILIZAÇÃO CARROUSSEL PAGINA UM =====================*/
 
 .sectionqueimaestoque {
-    /* display: flex;  */
-    /* width: 100px; */
-    /* height: 700PX; */
-    /* font-family: "inter" sans-serif; */
+   
 }
 
 .divqueima {
@@ -197,7 +194,7 @@ font-size: 13px;
 }
 .bolinhasapato{
     position: absolute;
-    right: 20px;
+    right: 100px;
 }
 
 .colecoesEmDestaqueUm {
