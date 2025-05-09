@@ -136,27 +136,26 @@
 
 .sectionqueimaestoque {}
 
-.carousel-indicators  {
-    gap: 30px;
-    
+
+.carousel-indicators {
+    gap: 40px;
+
 }
 
 .carousel-indicators button {
     display: flex;
     max-width: 15px;
     min-height: 15px;
-    border-radius: 50%;;
+    border-radius: 50%;
     border: none;
-    opacity: 0.5;
-    transition: opacity 0.3s ease;
-    
+    background-color:#C92071 !important;
 
 }
 
 .divqueima {
     background-color: rgb(245 245 245);
     display: flex;
-    position:relative;
+    position: relative;
     padding: 100px;
     height: 720px;
 }
@@ -202,6 +201,7 @@
     font-size: 14px;
     font-family: "Inter" sans-serif;
 }
+
 
 .sapato {
     display: flex;
@@ -627,38 +627,40 @@
 }
 
 .textoprodutos {
-    display: block;
+    display: flex;
     align-items: center;
     justify-content: end;
+    margin-bottom: 40px;
     gap: 10px;
 
 }
 
-#jordan {
+.jordan {
     display: flex;
-    align-items: center;
+    margin-top: 110px;
+    margin-bottom: 100px;
 
 }
 
 .jordangeral {
     display: flex;
     margin-left: 200px;
+    gap: 100px;
 
 
 
 }
 
 .jordanimg {
-    padding-right: 90px;
-    margin-left: -70px;
-
+    display: flex;
+    margin-right: 40px;
 
 }
 
-#jordanp {
+.jordanp {
     color: #C92071;
     font-family: "inter";
-    font-weight: 700px;
+    font-weight: 700;
     font-size: 14px;
     line-height: 38px;
     letter-spacing: 0.75px;
@@ -672,6 +674,8 @@
     line-height: 50px;
     letter-spacing: 1px;
     color: #474747;
+    margin-bottom: 20px;
+    font-weight: 700;
 
 
 }
@@ -683,6 +687,7 @@
     height: 40px;
     border: 1px none;
     border-radius: 8px;
+    margin-top: 30px;
 
 
 }
@@ -695,6 +700,10 @@
     display: flex;
     justify-content: end;
     text-decoration: none;
+    color: #C92071;
+    margin-bottom: px;
+}
+.linkvertodos:hover{
     color: #C92071;
 }
 
