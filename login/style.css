@@ -22,15 +22,17 @@ main{
     padding-top: 16px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 25px;
     height: 350px;
     border-radius: 16px;
+ 
     
     
 }
 .form{
     display: flex;
     flex-direction: column;
+    
 }
 .main{
     display: flex;
@@ -41,6 +43,12 @@ input{
     background-color: #f8f6f6;
     border: none;
     padding: 9px;
+    margin: 10px 0 10px;
+    
+    
+}
+a{
+    margin-left: 10px;
 }
 
 button{
@@ -49,4 +57,14 @@ button{
     padding: 8px;
     border-radius: 8px;
     border:none ;
+    margin-top: 10px;
+}
+
+.facebook{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    margin-top: 10px;
+    font-size: 16px;
 }
