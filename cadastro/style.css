@@ -1,0 +1,76 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: inter;
+    margin: 0%;
+}
+
+.cadastro{
+    text-align: center;
+    font-weight: bold;
+}
+
+.div1{
+    text-align: start;
+    padding-left: 433px;
+
+}
+
+.div2{
+    text-align: start;
+    padding-left: 433px;
+}
+
+label{
+    display: block;
+    padding: 10px;
+    text-align: start;
+    padding-left: 433px;
+}
+
+.caixinhaTermo{
+    width: 30px;
+    height: 15px;
+
+}
+
+.div3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border-radius: 10px;
+    border: none;
+    padding-left: 30px;
+    padding-right: 10px;
+    overflow: hidden;
+    margin-left: 15px;
+    height: 55px;
+    width: 650px;
+    
+}
+
+input[type = "checkbox"]:checked{
+    accent-color: #C92071;
+}
+.ptermo{
+    font-size: 16px;
+    font-weight: 350;
+}
+.botao{
+    width: 750px;
+    height: 48px;
+    margin: 20px 0px;
+    color: rgb(245, 245, 245);
+    background-color:#C92071;
+    border: 0px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+
