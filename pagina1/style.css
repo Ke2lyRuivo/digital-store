@@ -11,8 +11,9 @@
 }
 
 .imagemlogodigital img {
-    max-width: 150px;
-    height: auto;
+    max-width: 250px;
+    height: 40px;
+    margin-left: 100px;
 }
 
 .container-pesquisa {
@@ -24,8 +25,8 @@
     padding-left: 10px;
     padding-right: 10px;
     overflow: hidden;
-    margin-left: 15px;
-    height: 40px;
+    margin-right: 100px;
+    height: 60px;
     /* Reduzindo a altura para telas menores */
 }
 
@@ -49,23 +50,28 @@
     width: 20px;
     height: 20px;
     cursor: pointer;
+    opacity: 60%;
 }
 
 .linkcadastro {
     display: flex;
-    gap: 15px;
-    margin-left: 15px;
+    justify-content: center;
+    gap: 40px;
+    margin-right: 40px;
+
+
 }
 
 .btn-cadastro {
     padding: 8px 12px;
     color: #000000;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .btn-cadastro:hover {
-    color: #000000;
+    color: #c92071;
 }
 
 .entrar {
@@ -89,14 +95,16 @@
 .links {
     background-color: white;
     padding: 10px 20px;
+    margin-left: 100px;
+    font-family: "inter" sans-serif;
 }
 
 .links a {
     color: #474747;
-    /* list-style: none; */
-    font-weight: 600;
-    font-size: 110%;
-    text-decoration: none;
+    font-weight: 650;
+    ;
+
+
 }
 
 .lista {
@@ -148,7 +156,7 @@
     min-height: 15px;
     border-radius: 50%;
     border: none;
-    background-color:#C92071 !important;
+    background-color: #C92071 !important;
 
 }
 
@@ -158,6 +166,10 @@
     position: relative;
     padding: 100px;
     height: 720px;
+}
+
+.melhoresofertas {
+    margin-left: 35px;
 }
 
 .melhores {
@@ -179,8 +191,8 @@
     justify-self: end;
     /* Abaixo posicionamento da imagem foguinho */
     position: absolute;
-    left: 500px;
-    top: 230px;
+    left: 540px;
+    top: 231px;
 }
 
 .consequat {
@@ -200,6 +212,8 @@
     color: #F5F5F5;
     font-size: 14px;
     font-family: "Inter" sans-serif;
+    margin-top: 40px;
+    margin-left: 90px;
 }
 
 
@@ -635,6 +649,11 @@
 
 }
 
+/* ===== ABAIXO ESTILIZAÇÃO GRADE DE TENIS ===== */
+
+
+/* === FINAL DA ESTILIZAÇÃO DO TENIS ==== */
+
 .jordan {
     display: flex;
     margin-top: 110px;
@@ -646,9 +665,6 @@
     display: flex;
     margin-left: 200px;
     gap: 100px;
-
-
-
 }
 
 .jordanimg {
@@ -703,7 +719,8 @@
     color: #C92071;
     margin-bottom: px;
 }
-.linkvertodos:hover{
+
+.linkvertodos:hover {
     color: #C92071;
 }
 
