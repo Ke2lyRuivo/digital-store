@@ -1,6 +1,14 @@
-.cabeca {
-    background-color: white;
-    padding: 15px;
+@media (max-width: 768px) {
+    .cabeca {
+        background-color: white;
+        padding: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        flex-direction: column;
+        padding: 1rem;
+
+    }
 }
 
 .divheadertoda {
@@ -8,6 +16,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    margin-top: 20px;
 }
 
 .imagemlogodigital img {
@@ -37,7 +46,7 @@
     border: none;
     outline: none;
     /* Tamanho do campo pesquisar */
-    width: 510px;
+    width: 560px;
     flex-grow: 1;
     /* Faz o input ocupar o espaço restante */
     padding: 8px 0;
@@ -55,9 +64,8 @@
 
 .linkcadastro {
     display: flex;
-    justify-content: center;
     gap: 40px;
-    margin-right: 40px;
+    margin-right: 80px;
 
 
 }
@@ -66,7 +74,7 @@
     padding: 8px 12px;
     color: #000000;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 600;
 }
 
@@ -93,18 +101,17 @@
 }
 
 .links {
-    background-color: white;
+    background-color: #ffffff;
     padding: 10px 20px;
     margin-left: 100px;
+    margin-bottom: 25px;
+    margin-top: 30px;
     font-family: "inter" sans-serif;
 }
 
 .links a {
     color: #474747;
     font-weight: 650;
-    ;
-
-
 }
 
 .lista {
@@ -119,7 +126,7 @@
 
     color: #474747;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 17px;
 }
 
 .lista a:hover {
@@ -221,7 +228,7 @@
     display: flex;
     width: 100%;
     height: 690px;
-    /* position: relative; */
+    position: relative;
     bottom: 80px;
     left: 100px;
 
@@ -256,6 +263,7 @@
     justify-content: space-around;
     margin: 40px;
     margin-bottom: 130px;
+
 }
 
 .divBlusaSupreme {
@@ -266,6 +274,7 @@
     height: 245px;
     justify-content: end;
     position: relative;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
 
 }
 
@@ -337,6 +346,7 @@
     display: flex;
     justify-content: end;
     position: relative;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
 }
 
 .trintaoffdois {
@@ -405,6 +415,7 @@
     display: flex;
     justify-content: end;
     position: relative;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
 }
 
 .trintaofftres {
@@ -645,17 +656,91 @@
     align-items: center;
     justify-content: end;
     margin-bottom: 40px;
-    gap: 10px;
-
 }
 
 /* ===== ABAIXO ESTILIZAÇÃO GRADE DE TENIS ===== */
 
+.numeroduzentos {
+
+
+    width: 101px;
+    height: 28px;
+    top: 2113.09px;
+    left: 50px;
+    border: 1px;
+    color: #8F8F8F;
+    text-decoration: line-through;
+}
+
+.numerocem {
+    width: 63px;
+    height: 38px;
+    top: 2100px;
+    left: 49px;
+    color: #ee1883;
+    border: 3px;
+    font-weight: 700;
+
+}
+
+.kswiss {
+    width: 28px;
+    height: 38px;
+    top: 2062px;
+    left: 416px;
+    font-weight: 700;
+    font-family: "Inter" sans-serif;
+    color: #474747;
+
+}
+
+.texto {
+    display: flex;
+    justify-content: center;
+    font-size: small;
+    color: #8F8F8F;
+    margin: 10px;
+}
+
+.tudo {
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+    padding: 40px 80px;;
+    background-color: rgb(249 248 254);
+
+}
+
+.sapatop {
+    background-color: rgb(255, 255, 255);
+    border-radius: 4px;
+    padding: 20px 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.20);
+    
+
+}
+
+.sapatoso {
+    width: 100%;
+    height: 200px;
+    top: 100px;
+    left: 406px;
+}
+.btnGradeComprar{
+    border-radius: 8px;
+    background-color: #C92071;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    margin: 5px;
+}
 
 /* === FINAL DA ESTILIZAÇÃO DO TENIS ==== */
 
 .jordan {
-    display: flex;
     margin-top: 110px;
     margin-bottom: 100px;
 
@@ -708,16 +793,12 @@
 
 }
 
-.jordanbutton {}
-
-
 .linkvertodos {
     width: 100%;
     display: flex;
     justify-content: end;
     text-decoration: none;
     color: #C92071;
-    margin-bottom: px;
 }
 
 .linkvertodos:hover {
@@ -747,7 +828,7 @@ body {
 footer {
     background: #1F1F1F;
     color: white;
-    padding: 20px 0;
+    padding: 70px 0;
     border-radius: 5px;
     margin-top: 10px;
     width: 100%;
