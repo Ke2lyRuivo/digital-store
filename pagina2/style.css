@@ -112,13 +112,15 @@ body {
   margin: 0 auto;
 }
 /* fim estilização cabeça */
-.filtro {
+
+/* estilização filtro */
+/* .filtro {
   border: 1px solid lightgray;
   background-color: white;
   padding: 15px;
   margin-right: 20px;
-  width: 200px;
-  flex-shrink: 0; /* Impede que o filtro encolha demais */
+  width: 200px; */
+  flex-shrink: 0; /* Impede que o filtro encolha demais
 }
 
 .geral {
@@ -152,8 +154,19 @@ body {
   width: 14px;
   height: 14px;
   accent-color: #c92071;
+} */
+
+.filtro {
+  width: 100%;
+  margin-right: 0;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
 }
 
+/* estilização filtro fim */
+
+
+/* estilizaçãoa cards */
 .grade {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Grade responsiva */
@@ -289,12 +302,7 @@ body {
     flex-direction: column;
   }
 
-  .filtro {
-    width: 100%;
-    margin-right: 0;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-  }
+ 
 
   .grade {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
